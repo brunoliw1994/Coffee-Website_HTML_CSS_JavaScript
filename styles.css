@@ -1,0 +1,53 @@
+body {
+  background-color: #F5F0E1; 
+  color: #2E2E2E; 
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  background-color: #3E2723; 
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4E342E; 
+}
+
+.card {
+  border: 1px solid #D7CCC8; 
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #6D4C41; 
+  border-color: #5D4037;
+}
+
+.btn-primary:hover {
+  background-color: #5D4037;
+}
+
+.modal-header {
+  background-color: #3E2723;
+  color: #FFFFFF;
+}
+
+footer a img {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+footer a img:hover {
+  filter: none;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
